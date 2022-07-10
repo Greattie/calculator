@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+@import "./screen.scss";
+@import "./buttons.scss";
+@import "./calc.scss";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  font-family: "PT Sans", sans-serif;
+}
+
+.clear {
+  width: 120px;
+}
+.clear,
+.percent,
+.divide-num {
+  color: #77d4c7;
+}
