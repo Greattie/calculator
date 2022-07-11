@@ -1,3 +1,6 @@
+$buttonBackground:#26292f;
+$buttonContainerBackground:#2a2d37;
+
 button {
   border-radius: 20px;
   border: none;
@@ -5,7 +8,7 @@ button {
   width: 60px;
   font-size: 1.3rem;
   cursor: pointer;
-  background-color: #26292f;
+  background-color: $buttonBackground;
   color: white;
 }
 .buttons-container {
@@ -14,17 +17,9 @@ button {
   justify-content: center;
   align-items: center;
   gap: 15px;
-  background: #2a2d37;
+  background: $buttonContainerBackground;
   height: 70%;
 }
 .btn-operator {
   color: #c38185;
 }
-// .clear {
-//   width: 120px;
-// }
-// .clear,
-// .percent,
-// .divide-num {
-//   color: #77d4c7;
-// }

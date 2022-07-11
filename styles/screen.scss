@@ -1,8 +1,11 @@
+$backgroundColour: #22252d;
+$textColour: white;
+
 .display {
   height: 30%;
   width: 100%;
-  background: #22252d;
-  color: white;
+  background: $backgroundColour;
+  color: $textColour;
   font-size: 3rem;
   display: flex;
   justify-content: right;
